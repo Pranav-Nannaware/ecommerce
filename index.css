@@ -1,0 +1,56 @@
+/* Apply a background color to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the slideshow container */
+#carouselExampleIndicators {
+    width: 100%;
+    height: 400px;
+}
+
+/* Style the card headings */
+.name {
+    margin: 50px;
+    letter-spacing: 3px;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+/* Style the cards */
+.card {
+    width: 18rem;
+    margin: 15px;
+}
+
+.card img {
+    object-fit: fill;
+}
